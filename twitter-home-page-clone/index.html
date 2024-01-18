@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./svg/twitter.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/golbal.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/blocks/layout.css">
+    <link rel="stylesheet" href="css/blocks/layout-sidebar.css">
+    <link rel="stylesheet" href="css/blocks/layout-main.css">
+    <link rel="stylesheet" href="css/blocks/sidebar-brand.css">
+    <link rel="stylesheet" href="css/blocks/sidebar-menu.css">
+    <link rel="stylesheet" href="css/blocks/sidebar-profile.css">
+    <link rel="stylesheet" href="css/blocks/tweet.css">
+    <link rel="stylesheet" href="css/blocks/post.css">
+    <link rel="stylesheet" href="css/blocks/search.css">
+    <link rel="stylesheet" href="css/blocks/trending.css">
+    <link rel="stylesheet" href="css/blocks/follow.css">
+    <title>Twitter</title>
+</head>
+
+<body>
+    <div class="layout">
+        <aside>
+            <div class="layout__left-sidebar">
+                <nav class="sidebar-menu">
+                    <ul class="sidebar-menu__list--mobil">
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/home.svg">
+                            <a href="#" class="nav-text">Home</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/search.svg">
+                            <a href="#" class="nav-text">Explore</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/notification.svg">
+                            <a href="#" class="nav-text">Notifications</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/message.svg">
+                            <a href="#" class="nav-text">Messages</a>
+                        </li>
+                    </ul>
+                    <ul class="sidebar-menu__list">
+                        <li class="sidebar-menu__item sidebar-menu__item--brand">
+                            <img class="sidebar__logo" src="./svg/twitter.svg">
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/home.svg">
+                            <a href="#" class="nav-text">Home</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/search.svg">
+                            <a href="#" class="nav-text">Explore</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/notification.svg">
+                            <a href="#" class="nav-text">Notifications</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/message.svg">
+                            <a href="#" class="nav-text">Messages</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/list.svg">
+                            <a href="#" class="nav-text">Lists</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/communities.svg">
+                            <a href="#" class="nav-text">Communities</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/verified.svg">
+
+                            <a href="#" class="nav-text">Verified</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/profile.svg">
+                            <a href="#" class="nav-text">Profile</a>
+                        </li>
+                        <li class="sidebar-menu__item">
+                            <img class="sidebar-menu__img" src="./svg/more.svg">
+                            <a href="#" class="nav-text">More</a>
+                        </li>
+                        <li class=" sidebar-menu__item tweet-btn">
+                            <a href="#" class="nav-text">Post</a>
+                        </li>
+                        <li class="sidebar-menu__item tweet-btn-mobile">
+                            <img class="sidebar-menu__img" src="./svg/Messages _ X-10.svg">
+                        </li>
+                    </ul>
+                </nav>
+                <div class="profile-container">
+                    <div class="profile-mobile">
+                        <img class="sidebar-menu__item__img" src="./images/profile-img.png">
+                    </div>
+                    <div class="profile">
+                        <div class="profile__content">
+                            <img class="sidebar-menu__item__img" src="./images/profile-img.png" />
+                            <div class="profile__info">
+                                <p>nagyyasser</p>
+                                <span>@nagyyasser2</span>
+                            </div>
+                        </div>
+                        <div class="profile__setting">
+                            <img width="26px" src="svg/settings_ X-10.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="layout__main">
+            <div class="main-header">
+                <div class="main-header-head">
+                    <h3>Home</h3>
+                </div>
+                <div class="main-header-nav-link">For you</div>
+                <div class="main-header-nav-link">Following</div>
+            </div>
+            <div class="main-content">
+                <div class="tweet">
+                    <div>
+                        <img class="tweet__profile-img" src="./images/profile-img.png">
+                    </div>
+                    <div class="tweet__content">
+                        <textarea class="tweet__textarea" placeholder="What is happening?!" name="" id=""></textarea>
+                        <div class="tweet__controlls">
+                            <div class="tweet__icons">
+                                <img class="tweet__icon" src="./svg/tweet/pic.svg" alt="">
+                                <img class="tweet__icon" src="./svg/tweet/poll.svg" alt="">
+                                <img class="tweet__icon" src="./svg/tweet/squdel.svg" alt="">
+                                <img class="tweet__icon" src="./svg/tweet/emoji.svg" alt="">
+                                <img class="tweet__icon" src="./svg/tweet/gif.svg" alt="">
+                                <img class="tweet__icon" src="./svg/tweet/location.svg" alt="">
+                            </div>
+                            <div class="tweet__button">
+                                <a>
+                                    post
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div>
+                        <img class="post__author-img"
+                            src="https://pbs.twimg.com/profile_images/1433374378092384261/NLEvx7vm_400x400.jpg">
+                    </div>
+                    <div class="post__content">
+
+                        <div class="post__header">
+                            <div class="author-details">
+                                <div class="author__info">
+                                    <h4>Ahmed Shobier</h4>
+                                    <img class="follow__item-icon"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png">
+                                    <span>@ShobierOfficial</span>
+                                    <span>.1h</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="setting-icon" src="./svg/settings_ X-10.svg">
+                            </div>
+                        </div>
+
+                        <article class="post__article">
+                            ملعب أون تايم: "جونيور أجاي: التركيز في مباريات الزمالك كان يصل للقمة وأشعر أني محظوظ في
+                            "الكلاسيكو"
+                        </article>
+
+                        <div class="post__img">
+                            <img src="https://pbs.twimg.com/media/F5nVmXbWYAAYWqe?format=jpg&name=medium">
+                        </div>
+
+                        <div class="post__controlls">
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/comment _ X-22.svg">
+                                <span>22</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/repost_ X-23.svg">
+                                <span>7</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/love _ X-24.svg">
+                                <span>30</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/bookmark.svg">
+                                <span>2</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/share _ X-26.svg">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div>
+                        <img class="post__author-img" src="./images/profile-img.png">
+                    </div>
+                    <div class="post__content">
+
+                        <div class="post__header">
+                            <div class="author-details">
+                                <div class="author__info">
+                                    <h4>Nagy Yasser</h4>
+                                    <img class="follow__item-icon"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png">
+                                    <span>@nagyyasser2</span>
+                                    <span>.1h</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="setting-icon" src="./svg/settings_ X-10.svg">
+                            </div>
+                        </div>
+
+                        <article class="post__article">
+                            ثانى اضخم مشروع صوب زراعية فى العالم .. ضمن المشروع القومى لتنفيذ 100 ألف قدان صوب زراعية
+
+                            الصورة للقطاع الاول فقط من المشروع بمنطقة العاشر من رمضان
+
+                            يذكر ان انتاجية 100 الف فدان من الصوب تعطى انتاج مليون فدان من الارض العادية ..
+                        </article>
+
+                        <div class="post__img">
+                            <img src="./images/F5MIwUeWEAAGwvd.jpeg">
+                        </div>
+
+                        <div class="post__controlls">
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/comment _ X-22.svg">
+                                <span>22</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/repost_ X-23.svg">
+                                <span>7</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/love _ X-24.svg">
+                                <span>30</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/bookmark.svg">
+                                <span>2</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/share _ X-26.svg">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div>
+                        <img class="post__author-img"
+                            src="https://pbs.twimg.com/profile_images/1643570012014141441/YgnZbCUI_400x400.jpg">
+                    </div>
+                    <div class="post__content">
+
+                        <div class="post__header">
+                            <div class="author-details">
+                                <div class="author__info">
+                                    <h4>خاص عن مصر</h4>
+                                    <img class="follow__item-icon"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png">
+                                    <span>@AboutMsr</span>
+                                    <span>Sep.3</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="setting-icon" src="./svg/settings_ X-10.svg">
+                            </div>
+                        </div>
+
+                        <article class="post__article">
+                            الخط الثالث من القطار السريع 'حابي' يمتد بطول ٢٢٥كم يحتضن ٥ محطات ينطلق من مدينة سفاجا على
+                            البحر الأحمر ماراً على سهل
+                            حشيش-الغردقة-شرق سوهاج-قنا
+
+                            يستهدف ربط منتجعات البحر الأحمر بمعابد الأقصر في مدة زمنية لا تتخطى ٧٠ دقيقة لدعم سياحة
+                            اليوم الواحد
+                        </article>
+
+                        <div class="post__img">
+                            <img src="https://pbs.twimg.com/media/F5mmb8KW8AAXoqE?format=jpg&name=medium">
+                        </div>
+
+                        <div class="post__controlls">
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/comment _ X-22.svg">
+                                <span>22</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/repost_ X-23.svg">
+                                <span>7</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/love _ X-24.svg">
+                                <span>30</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/bookmark.svg">
+                                <span>2</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/share _ X-26.svg">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div>
+                        <img class="post__author-img"
+                            src="https://pbs.twimg.com/profile_images/1643570012014141441/YgnZbCUI_400x400.jpg">
+                    </div>
+                    <div class="post__content">
+
+                        <div class="post__header">
+                            <div class="author-details">
+                                <div class="author__info">
+                                    <h4>خاص عن مصر</h4>
+                                    <img class="follow__item-icon"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png">
+                                    <span>@AboutMsr</span>
+                                    <span>Sep.3</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="setting-icon" src="./svg/settings_ X-10.svg">
+                            </div>
+                        </div>
+
+                        <article class="post__article">
+                            استقبل السيد الرئيس عبدالفتاح السيسي السيد "كلاوديو ديسكالزي"، الرئيس التنفيذي لشركة "إيني"
+                            لمتابعة خطة الشركة لضخ ٧.٧
+                            مليار دولار جديدة في مصر خلال الأربع السنوات المُقبلة لاستكشاف و تطوير المزيد من حقول الغاز
+                            الطبيعي
+                        </article>
+
+                        <div class="post__img">
+                            <img src="https://pbs.twimg.com/media/F5ReQkaX0AA0zVs?format=jpg&name=medium">
+                        </div>
+
+                        <div class="post__controlls">
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/comment _ X-22.svg">
+                                <span>22</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/repost_ X-23.svg">
+                                <span>7</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/love _ X-24.svg">
+                                <span>30</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/bookmark.svg">
+                                <span>2</span>
+                            </div>
+                            <div>
+                                <img class="post__controlls-icon" src="./svg/share _ X-26.svg">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div>
+            <div class="layout__right-sidebar">
+                <div class="search">
+                    <div class="search__form">
+                        <img class="search__img" src="./svg/search/search.svg   ">
+                        <input class="search__input" type="text" placeholder="Search">
+                    </div>
+                </div>
+
+                <div class="trending">
+                    <h3 class="trending__head">What's happening</h3>
+                    <ul class="trending__list">
+                        <li class="trending__item">
+                            <div class="trending__item-head">
+                                <span>only on Twitter. trending </span>
+                            </div>
+                            <div class="trending__item-content">
+                                <h3>ادعم_بلايك</h3>
+                            </div>
+                            <div class="trending__item-count">
+                                <p>123,000 post</p>
+                            </div>
+                        </li>
+                        <li class="trending__item">
+                            <div class="trending__item-head">
+                                <span>trending in egypt</span>
+                            </div>
+                            <div class="trending__item-content">
+                                <h3>تحيا_مصر</h3>
+                            </div>
+                            <div class="trending__item-count">
+                                <p>100000,000 post</p>
+                            </div>
+                        </li>
+                        <li class="trending__item">
+                            <div class="trending__item-head">
+                                <span>trending in egypt</span>
+                            </div>
+                            <div class="trending__item-content">
+                                <h3>الدولار</h3>
+                            </div>
+                            <div class="trending__item-count">
+                                <p>13,000 post</p>
+                            </div>
+                        </li>
+                        <li class="trending__item">
+                            <div class="trending__item-head">
+                                <span>trending in egypt</span>
+                            </div>
+                            <div class="trending__item-content">
+                                <h3>مصر_في_قمه_العشرين</h3>
+                            </div>
+                            <div class="trending__item-count">
+                                <p>250,000 post</p>
+                            </div>
+                        </li>
+                        <li class="trending__item">
+                            <div class="trending__item-head">
+                                <span>trending in egypt</span>
+                            </div>
+                            <div class="trending__item-content">
+                                <h3>جمعه_مباركه</h3>
+                            </div>
+                            <div class="trending__item-count">
+                                <p>1000,00 post</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="follow">
+                    <h3 class="follow__head">Who to follow</h3>
+                    <ul class="follow__list">
+                        <li class="follow__item">
+                            <div class="follow__content">
+                                <div>
+                                    <img class="follow__item-img"
+                                        src="https://pbs.twimg.com/profile_images/1577999357013622785/fnjF5ZNn_400x400.jpg">
+                                </div>
+                                <div class="follow__item-account-details">
+                                    <follow class="follow__name">
+                                        <p>Abouzaid</p>
+                                        <img class="follow__item-icon"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png">
+                                    </follow>
+                                    <follow class="follow__username">
+                                        <p>@droos_online</p>
+                                    </follow>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="follow__button" href="">Follow</a>
+                            </div>
+                        </li>
+                        <li class="follow__item">
+                            <div class="follow__content">
+                                <div>
+                                    <img class="follow__item-img"
+                                        src="https://pbs.twimg.com/profile_images/1697299503198646273/GTnwCVUC_400x400.jpg">
+                                </div>
+                                <div class="follow__item-account-details">
+                                    <follow class="follow__name">
+                                        <p>Elon Musk</p>
+                                        <img class="follow__item-icon"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png" />
+                                    </follow>
+                                    <follow class="follow__username">
+                                        <p>@ElonMuskAOC</p>
+                                    </follow>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="follow__button" href="">Follow</a>
+                            </div>
+                        </li>
+                        <li class="follow__item">
+                            <div class="follow__content">
+                                <div>
+                                    <img class="follow__item-img"
+                                        src="https://pbs.twimg.com/profile_images/1679104980467462144/R9oQfPvg_400x400.jpg">
+                                </div>
+                                <div class="follow__item-account-details">
+                                    <follow class="follow__name">
+                                        <p>Mark Zuckerberg</p>
+                                        <img class="follow__item-icon"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png" />
+                                    </follow>
+                                    <follow class="follow__username">
+                                        <p>@MarkCrtlC</p>
+                                    </follow>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="follow__button" href="">Follow</a>
+                            </div>
+                        </li>
+                        <li class="follow__item">
+                            <div class="follow__content">
+                                <div>
+                                    <img class="follow__item-img"
+                                        src="https://pbs.twimg.com/profile_images/1666090981496864768/DKbRPL6K_400x400.jpg">
+                                </div>
+                                <div class="follow__item-account-details">
+                                    <follow class="follow__name">
+                                        <p>Osama Elzero</p>
+                                        <img class="follow__item-icon"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/800px-Twitter_Verified_Badge.svg.png" />
+                                    </follow>
+                                    <follow class="follow__username">
+                                        <p>@Osame_Elzero</p>
+                                    </follow>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="follow__button" href="">Follow</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

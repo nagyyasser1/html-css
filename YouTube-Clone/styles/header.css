@@ -1,0 +1,76 @@
+/* ("Header")......................
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+}
+
+header .left-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header .left-section img {
+    width: 46%;
+    cursor: pointer;
+}
+
+header .left-section span {
+    cursor: pointer;
+}
+
+header .mid-section {
+    display: flex;
+    align-items: center;
+    margin-left: -13%;
+}
+
+header .mid-section form {
+    display: flex;
+    height: 40px;
+    width: 628px;
+}
+
+header .mid-section form input {
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+
+.mid-section button {
+    width: 64px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    padding-top: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.mid-section button:hover {
+    border-color: #c6c6c6;
+    background-color: #f0f0f0;
+}
+
+.mid-section .mic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-section a {
+    padding-right: 18px;
+    text-decoration: none;
+    color: black;
+} */

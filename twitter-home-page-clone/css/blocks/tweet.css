@@ -1,0 +1,75 @@
+.tweet {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.tweet__profile-img {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.tweet__content {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.tweet__textarea {
+    padding-left: 10px;
+    width: 100%;
+    min-height: 30px;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.tweet__controlls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet__icon {
+    width: 35px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tweet__icon:hover {
+    background-color: #F7F7F7;
+}
+
+.tweet__button {
+    background-color: #a7ddff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(12, 137, 240, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tweet__button a {
+    color: white;
+}
+
+@media (max-width: 650px) {
+    .tweet__icon {
+        width: 26px;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .tweet__textarea {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,61 @@
+.follow {
+    border-radius: 10px;
+    background-color: #F7F9F9;
+}
+
+.follow__head {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.follow__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.follow__item {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.follow__item:hover {
+    background-color: rgb(227, 231, 231);
+}
+
+.follow__content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow__name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.follow__item-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+
+.follow__item-icon {
+    width: 20px;
+}
+
+.follow__item-account-details {}
+
+.follow__button {
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 18px;
+}

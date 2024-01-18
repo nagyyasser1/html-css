@@ -1,0 +1,40 @@
+.main-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.main-header-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    padding: 10px;
+    grid-column: 1 / 3;
+}
+
+
+
+.main-header div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header-nav-link:hover {
+    background-color: rgb(227, 231, 231);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 70px;
+}

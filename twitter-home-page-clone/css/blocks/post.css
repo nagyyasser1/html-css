@@ -1,0 +1,103 @@
+.post {
+    padding: 10px;
+    min-height: 400px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.post:hover {
+    background-color: #F7F7F7;
+}
+
+.post__author-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.post__content {}
+
+
+.post__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-details {
+    display: flex;
+    align-items: center;
+}
+
+.author__img {
+    width: 30px;
+}
+
+.setting-icon {
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.setting-icon:hover {
+    background-color: #e7e7e7;
+}
+
+.post__article {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.post__img {}
+
+.post__img img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.post__controlls {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.post__controlls div {
+    display: flex;
+    align-items: center;
+}
+
+.post__controlls-icon {
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.post__controlls-icon:hover {
+    background-color: #e7e7e7;
+}
+
+.author__info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.author__info h4 {
+    font-weight: 400;
+}
+
+.author__info span {
+    font-size: 0.9rem;
+    color: #8d8d8d;
+    font-weight: 100;
+}

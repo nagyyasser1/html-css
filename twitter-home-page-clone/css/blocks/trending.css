@@ -1,0 +1,46 @@
+.trending {
+    border-radius: 10px;
+    background-color: #F7F9F9;
+}
+
+.trending__head {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.trending__item-head span {
+    font-size: 0.9rem;
+    color: #8d8d8d;
+    font-weight: 100;
+}
+
+.trending__item-count p {
+    font-size: 0.9rem;
+    color: #8d8d8d;
+    font-weight: 100;
+
+}
+
+.trending__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.trending__item {
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.trending__item:hover {
+    background-color: rgb(227, 231, 231);
+}
+
+.trending__item-content {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}

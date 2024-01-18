@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --primary-color: #007bff;
+    --secondary-color: #ff5733;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+
+    /* Typography */
+    --font-family: Arial, sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+
+    /* Spacing and Layout */
+    --spacing-unit: 8px;
+    --container-width: 1200px;
+
+    /* Border Radii and Shadows */
+    --border-radius: 4px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Transitions and Animation Durations */
+    --transition-duration: 0.3s;
+    --animation-duration: 1s;
+
+    /* Z-Index Values */
+    --z-index-header: 100;
+    --z-index-modal: 200;
+}

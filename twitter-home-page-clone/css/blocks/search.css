@@ -1,0 +1,33 @@
+.search {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.search__form {
+    height: 40px;
+    background-color: #EFF3F4;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.search__img {
+    width: 20px;
+    margin: 5px 15px;
+}
+
+.search__input {
+    border: none;
+    outline: none;
+    background-color: #EFF3F4;
+    width: 100%;
+    font-size: 1rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-right: 5px;
+}
